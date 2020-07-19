@@ -78,7 +78,7 @@ body {
   left: 160px;
 }
 
-.modal {
+.modal-inner {
   position: absolute;
   display: flex;
   align-items: center;

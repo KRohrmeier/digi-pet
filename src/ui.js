@@ -7,5 +7,11 @@ export const modifyScene = function modifyScene(state) {
 };
 
 export const togglePoopBag = function togglePoopBag(show) {
-  document.querySelector("poop-bag").classList.toggle("hidden", !show);
+  document.querySelector(".poop-bag").classList.toggle("hidden", !show);
+};
+
+export const writeModal = function writeModal(text = "") {
+  document.querySelector(
+    ".modal"
+  ).innerHTML = `<div class="modal-inner">${text}</div>`;
 };
